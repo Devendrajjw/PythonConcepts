@@ -1,0 +1,16 @@
+Sure! Here are 10 advanced Python string programming questions along with brief descriptions:
+
+Write a program to reverse a string without using built-in reverse functions.
+Write a program to check if a string is a palindrome or not.
+Write a program to count the occurrences of each character in a string.
+Write a program to remove all duplicates from a string.
+Write a program to find the longest palindrome substring in a given string.
+Write a program to check if two strings are anagrams of each other.
+Write a program to find the shortest substring containing all the characters of a given pattern in a string.
+Write a program to find the first non-repeating character in a string.
+Write a program to find the minimum window in a string containing all characters of another string.
+Write a program to generate all possible substrings of a string.
+
+Each of these questions involves manipulating strings in various ways and can provide a good challenge for
+improving your string manipulation skills in Python. Feel free to ask if you need further explanation or code
+snippets for any specific question!

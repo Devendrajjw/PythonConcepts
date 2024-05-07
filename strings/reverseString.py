@@ -32,3 +32,10 @@
 # for i in range(len(split_var)):
 #     ch_str += split_var.pop() + " "
 # print(ch_str) # BTM in world hello
+
+z = 'hello world'
+y = list(reversed(z))
+print(y) # ['d', 'l', 'r', 'o', 'w', ' ', 'o', 'l', 'l', 'e', 'h']
+x = ''.join(y)
+print(x)
+

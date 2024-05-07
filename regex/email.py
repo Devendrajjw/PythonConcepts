@@ -11,10 +11,8 @@ for email in email_list:
     # for results_obj in results:
     #     print(results_obj.group())
 
-
 '''
-For example, [\w-] is the same as [A-Za-z0-9_-]. They both match any of the characters in 
-"no_reply@example-server.com" except for the "@" and the "."
+For example, [\w-] is the same as [A-Za-z0-9_-]. They both match any of the characters in "no_reply@example-server.com" except for the "@" and the "."
 
 {2,} Which basically would read: match n-times, 2 or more times
 '''

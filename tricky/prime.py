@@ -20,3 +20,12 @@ if __name__ == '__main__':
     list_prime(data)
     print()
     num_prime(7)
+    x = [1, 2, 3]
+    y = 'hello'
+    x.remove(2)
+    x.extend([10, 11, 12])
+    x.append([20, 21, 22])
+    print(x)
+    print(y.isalpha())
+    print(y.isnumeric())
+

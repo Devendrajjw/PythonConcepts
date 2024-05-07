@@ -1,0 +1,2 @@
+this is file.txt file in static folder.
+This is example of Flask.

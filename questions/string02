@@ -1,0 +1,36 @@
+Sure! Here are 10 advanced programming questions involving strings in Python:
+
+Palindrome Check:
+Write a Python function to check if a given string is a palindrome or not.
+
+Anagram Check:
+Write a Python function to check if two given strings are anagrams of each other.
+
+String Compression:
+Write a Python function to perform basic string compression using the counts of repeated characters. For example,
+the string "aabbbcc" would become "a2b3c2".
+
+String Rotation Check:
+Write a Python function to check if one string is a rotation of another string. For example, "waterbottle" is a
+rotation of "erbottlewat".
+
+Longest Substring Without Repeating Characters:
+Write a Python function to find the length of the longest substring without repeating characters in a given string.
+
+Regular Expression Matching:
+Write a Python function to implement regular expression matching with support for '.' and ''. For example,
+is_match("aab", "ca*b") should return True.
+
+String Permutations:
+Write a Python function to generate all permutations of a given string.
+
+Word Break Problem:
+Write a Python function to determine if a given string can be segmented into a space-separated sequence of one or
+more dictionary words. For example, given the string "leetcode" and the dictionary ["leet", "code"], return True.
+
+Longest Palindromic Substring:
+Write a Python function to find the longest palindromic substring in a given string.
+
+String Zigzag Conversion:
+Write a Python function to convert a given string into a zigzag pattern with a given number of rows. For example,
+given the string "PAYPALISHIRING" and the number of rows 3, the zigzag pattern would be:
