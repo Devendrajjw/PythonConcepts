@@ -29,8 +29,8 @@ def microservice_subtract():
     return str(math.subtract(var1, var2))
 
 
-@app.route('/microservice_subtract')
-def microservice_subtract():
+@app.route('/microservice_multiply')
+def microservice_multiply():
     var1 = int(request.headers.get('p1'))
     var2 = int(request.headers.get('p2'))
     return str(math.multiply(var1, var2))

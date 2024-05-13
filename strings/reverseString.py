@@ -26,16 +26,17 @@
 # print(" ". join((map(str, pop_var)))) # BTM in world hello
 
 ''' not using append or join '''
-# inp_str = "hello world in BTM"
-# split_var = inp_str.split(" ")
-# ch_str = ""
-# for i in range(len(split_var)):
-#     ch_str += split_var.pop() + " "
-# print(ch_str) # BTM in world hello
+inp_str = "hello world in BTM"
+split_var = inp_str.split(" ")
+# print(split_var)
+ch_str = ""
+for i in range(len(split_var)):
+    ch_str += split_var.pop() + " "
+print(ch_str) # BTM in world hello
 
-z = 'hello world'
-y = list(reversed(z))
-print(y) # ['d', 'l', 'r', 'o', 'w', ' ', 'o', 'l', 'l', 'e', 'h']
-x = ''.join(y)
-print(x)
+# z = 'hello world'
+# y = list(reversed(z))
+# print(y) # ['d', 'l', 'r', 'o', 'w', ' ', 'o', 'l', 'l', 'e', 'h']
+# x = ''.join(y)
+# print(x)
 

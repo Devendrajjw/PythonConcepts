@@ -7,6 +7,7 @@ if __name__ == "__main__":
                 last_5 = fh.readlines()
                 for l5 in last_5[-5:]:
                     print(l5, end='')
+                # print(last_5[-5:])
                 if not lines:
                     break
     except FileNotFoundError:
