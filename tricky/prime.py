@@ -17,15 +17,18 @@ def num_prime(num1):
 
 if __name__ == '__main__':
     data = [i for i in range(1, 101)]
+    # 1 2 3 5 7 11 13 17 19 23 29 31
+    data22 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 13, 14, 15, 17, 19, 23 ]
     list_prime(data)
-    print()
+    list_prime(data22)
+    # print()
     num_prime(7)
-    x = [1, 2, 3]
-    y = 'hello'
-    x.remove(2)
-    x.extend([10, 11, 12])
-    x.append([20, 21, 22])
-    print(x)
-    print(y.isalpha())
-    print(y.isnumeric())
+    # x = [1, 2, 3]
+    # y = 'hello'
+    # x.remove(2)
+    # x.extend([10, 11, 12])
+    # x.append([20, 21, 22])
+    # print(x)
+    # print(y.isalpha())
+    # print(y.isnumeric())
 

@@ -12,7 +12,7 @@ def createKey(strings):
     for ch in sorted(strings):
         key += ch
     return str(key)
-print(createKey('bca'))
+# print(createKey('bca'))
 
 
 def groupWords(data):

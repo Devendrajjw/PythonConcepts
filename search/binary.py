@@ -1,4 +1,6 @@
 def binary(arr, target):
+    # arr = sorted(arr)
+    arr.sort()
     left, right = 0, len(arr) - 1
     while left <= right:
         mid = (left + right) // 2
