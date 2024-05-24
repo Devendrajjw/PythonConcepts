@@ -12,7 +12,7 @@ def binary(arr, target):
             right = mid - 1
     return 0
 
-
-arr = [10, 11, 14, 13, 20]
-target = 13
-print(binary(arr, target))
+if __name__ == '__main__':
+    arr = [10, 11, 14, 13, 20]
+    target = 13
+    print(binary(arr, target))
