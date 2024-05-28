@@ -1,4 +1,4 @@
-# -- FILE: bdd/steps.py
+# -- FILE: bdd/features/steps.py
 from behave import given, when, then
 
 

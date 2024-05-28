@@ -1,5 +1,5 @@
 # a = 'python program to get output as a/b/c/d/e from input a/b/..../c///d/e'
-import re
+
 a = 'a/b//..../c///d/e'
 b = ''
 for c in a:
