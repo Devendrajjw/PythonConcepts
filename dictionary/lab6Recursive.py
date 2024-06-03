@@ -21,7 +21,7 @@ def dict_fun(d):
             if isinstance(value, str):
                 if key == 'e':
                     print(f'{key}:{value}')
-                d[key] = value.upper()
+                # d[key] = value.upper()
 
 nested_dict = {
     'a': 'value1',
@@ -35,4 +35,4 @@ nested_dict = {
 }
 
 dict_fun(nested_dict)
-print(nested_dict)
+# print(nested_dict)

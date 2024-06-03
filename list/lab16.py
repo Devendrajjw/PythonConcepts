@@ -5,6 +5,8 @@
 # the original order of elements.
 if __name__ == '__main__':
     input_list = [1, 2, 3, 3, 4, 4, 5]
+    # s = set(input_list)
+    # print(s)
     new_list = []
     for elem in input_list:
         if elem not in new_list:

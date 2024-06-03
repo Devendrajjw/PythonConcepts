@@ -4,10 +4,10 @@ if __name__ == '__main__':
     for d in data:
         if d.isalpha():
             if d.isupper():
-                newData = newData + d.lower()
+                newData += d.lower()
             if d.islower():
-                newData = newData + d.upper()
+                newData += d.upper()
         else:
-            newData = newData + d
+            newData += d
 
     print(newData)

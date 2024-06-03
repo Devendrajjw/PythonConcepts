@@ -2,7 +2,7 @@
 # The function should return a list of tuples, where each tuple represents a pair of integers from the input
 # list that sum up to the target sum.
 l1 = [1, 2, 3, 4, 5, 6]
-target_sum = 7
+target_sum = 6
 # result = find_pairs(numbers, target_sum)
 # print(result)
 # # Output: [(1, 6), (2, 5), (3, 4)]
