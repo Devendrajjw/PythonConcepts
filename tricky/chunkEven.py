@@ -1,4 +1,4 @@
-def even_number_in_chunks(num, list_size=3):
+def even_number_in_chunks(num, list_size=10):
     even_list = []
     for n1 in num:
         if n1 % 2 == 0:
