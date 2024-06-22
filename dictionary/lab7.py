@@ -12,14 +12,14 @@ def transform_nested_dict(data):
             data[k] = v.upper()
 
 nested_dict = {
-    'a': 'value1',
+    'a': 'value_a_1',
     'b': {
-        'c': ['value2_1', 'value2_2'],
+        'c': ['value_c_1', 'value_c_2'],
         'd': {
-            'e': 'value2_2_1'
+            'e': 'value_e_1'
         }
     },
-    'f': 'value3'
+    'f': 'value_f_1'
 }
 
 transform_nested_dict(nested_dict)
