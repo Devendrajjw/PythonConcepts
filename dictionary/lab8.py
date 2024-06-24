@@ -17,3 +17,5 @@ for k1, v1 in nested_dict.items():
                         if v3 == 'value_e_1':
                             print(f'value of {k3} is {v3}')
 
+print(nested_dict['b']['d']['e'])
+

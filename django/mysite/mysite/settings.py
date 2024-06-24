@@ -27,6 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# CORS_ALLOWED_ORIGINS = [
+#     'http://localhost:3030',
+# ]
 
 # Application definition
 
@@ -38,9 +41,16 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "rest_framework",
+    "corsheaders",
+    "EmployeeApp.apps.EmployeeappConfig"
 ]
 
+# not recommended in production instead just add only those domains those need to be white listed
+CORS_ORIGIN_ALLOW_ALL = True
+
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -79,9 +89,17 @@ DATABASES = {
     #     'ENGINE': 'django.db.backends.sqlite3',
     #     'NAME': BASE_DIR / 'db.sqlite3',
     # }
+    # "default": {
+    #     "ENGINE": "django.db.backends.postgresql",
+    #     "NAME": "testdb",
+    #     "USER": "postgres",
+    #     "PASSWORD": "admin",
+    #     "HOST": "127.0.0.1",
+    #     "PORT": "5432",
+    # }
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "testdb",
+        "NAME": "sundaydb",
         "USER": "postgres",
         "PASSWORD": "admin",
         "HOST": "127.0.0.1",
