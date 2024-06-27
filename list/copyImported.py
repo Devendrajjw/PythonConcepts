@@ -1,7 +1,6 @@
 import copy
 
-list_data = [11, 12, 13, 14, 'abc', 'def', {'name': 'Devendra', 'id': 1001,
-                'Address': ['Karnataka', 'Bangalore', 560076]}, 'ghi']
+list_data = [11, 12, 13, 14]
 #
 # print(list_data)
 # cp1 = copy.copy(list_data)

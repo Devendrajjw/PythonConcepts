@@ -1,0 +1,4 @@
+cmd ='SYSTEMINFO'
+cmd ='DRIVERQUERY'
+cmd ='VOL'
+cmd ='PING'

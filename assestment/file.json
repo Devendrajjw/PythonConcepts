@@ -1,0 +1,69 @@
+{
+
+"CAR1": {"COST": 500, "COLOR": "RED"},
+
+"CAR2": {"COST": 500, "COLOR": "Yellow"},
+
+"CAR3": {"COST": 5600, "COLOR": "Blue"},
+
+"CAR4": {"COST": 5002, "COLOR": "Green"},
+
+"CAR5": {"COST": 5002, "COLOR": "RED"},
+
+"CAR6": {"COST": 5002, "COLOR": "RED"},
+
+"CAR7": {"COST": 5002, "COLOR": "RED"},
+
+"CAR8": {"COST": 5002, "COLOR": "RED"},
+
+"CAR9": {"COST": 5005, "COLOR": "RED"},
+
+"CAR10": {"COST": 5005, "COLOR": "RED"},
+
+"CAR11": {"COST": 5005, "COLOR": "RED"},
+
+"CAR12": {"COST": 5005, "COLOR": "RED"},
+
+"CAR13": {"COST": 5010, "COLOR": "RED"},
+
+"CAR14": {"COST": 5011, "COLOR": "RED"},
+
+"CAR15": {"COST": 5011, "COLOR": "RED"},
+
+"CAR16": {"COST": 5012, "COLOR": "RED"},
+
+"CAR17": {"COST": 5013, "COLOR": "RED"},
+
+"CAR20": {"COST": 500, "COLOR": "RED"},
+
+"CAR21": {"COST": 500, "COLOR": "Yellow"},
+
+"CAR22": {"COST": 5600, "COLOR": "Blue"},
+
+"CAR23": {"COST": 5002, "COLOR": "Green"},
+
+"CAR24": {"COST": 500, "COLOR": "RED"},
+
+"CAR25": {"COST": 500, "COLOR": "Yellow"},
+
+"CAR26": {"COST": 5600, "COLOR": "Blue"},
+
+"CAR27": {"COST": 5002, "COLOR": "Green"},
+
+"CAR28": {"COST": 500, "COLOR": "RED"},
+
+"CAR29": {"COST": 500, "COLOR": "Yellow"},
+
+"CAR30": {"COST": 5600, "COLOR": "Blue"},
+
+"CAR31": {"COST": 5002, "COLOR": "Green"},
+
+"CAR32": {"COST": 5002, "COLOR": "Green"},
+
+"CAR33": {"COST": 5002, "COLOR": "Green"},
+
+"CAR34": {"COST": 5002, "COLOR": "Green"},
+
+"CAR35": {"COST": 5002, "COLOR": "Green"}
+
+}

@@ -3,5 +3,3 @@ if __name__ == '__main__':
     for da in data:
         if not str(da).isalpha():
             print(da)
-        # else:
-        #     print(da)

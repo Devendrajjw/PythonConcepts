@@ -6,4 +6,13 @@ if __name__ == '__main__':
     #     print(arr)
     for i in range(N):
         e = input().split()
-        print(e)
+        arr.append(e)
+    print(arr)
+
+'''
+outer 3
+111
+222
+333
+[['111'], ['222'], ['333']]
+'''
