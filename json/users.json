@@ -1,0 +1,14 @@
+{
+    "USER1": {
+        "AGE": 25,
+        "CITY": "New York"
+    },
+    "USER2": {
+        "AGE": 30,
+        "CITY": "Los Angeles"
+    },
+    "USER3": {
+        "AGE": 22,
+        "CITY": "Chicago"
+    }
+}

@@ -53,16 +53,35 @@
 #
 #
 
-class D4:
-    def __init__(self, a, b=10):
+# class D4:
+#     def __init__(self, a, b=10):
+#         self.a = a
+#         self.b = b
+#
+#     def __int__(self):
+#         return self.a + self.b
+#
+# d4 = D4(20)
+# print(d4)
+
+class D5:
+    def __init__(self, a='aaa'):
         self.a = a
-        self.b = b
+
+    def __str__(self):
+        return self.a
+
+d5 = D5()
+print(d5)     # aaa
+
+
+class D6:
+    def __init__(self, a=12):
+        self.a = a
 
     def __int__(self):
-        return self.a + self.b
-    
+        return self.a
 
 
-d4 = D4(20)
-print(d4)
-
+d6 = D6()
+print(d6)

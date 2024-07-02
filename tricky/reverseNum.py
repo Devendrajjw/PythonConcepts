@@ -1,7 +1,13 @@
 num = 123
-s = ''
+# s = ''
+# while num > 0:
+#     rev = num % 10
+#     s = s + str(rev)
+#     num //= 10
+# print(s)
+rev = 0
 while num > 0:
-    rev = num % 10
-    s = s + str(rev)
+    rem = num % 10
+    rev = rev * 10 + rem
     num //= 10
-print(s)
+print(rev)
