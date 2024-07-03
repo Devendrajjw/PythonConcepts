@@ -1,5 +1,5 @@
 # n = int(input())
-# singer = list(map(int(input())))
+# singer = list(mapFilterReduce(int(input())))
 def fav_song(singer):
     md = {}
     for sing in singer:

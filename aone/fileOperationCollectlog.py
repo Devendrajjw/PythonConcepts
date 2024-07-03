@@ -14,7 +14,7 @@ def collect_data(file_path):
                 fail_c += 1
     return pass_c, fail_c
 
-for i in range(1, 100):
+for i in range(1, 5):
     file_name = f'file{i}.log'
     file_path = os.path.join(dir_name, file_name)
     if os.path.exists(file_path):

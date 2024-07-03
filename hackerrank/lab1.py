@@ -1,4 +1,4 @@
-n = int(input())
+n = int(input('type something '))
 array = list(map(int, input().split()))
 
 def find_minimum_x(n, array):

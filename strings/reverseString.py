@@ -23,7 +23,7 @@
 #     pop_var.append(split_var.pop())
 # print(pop_var) # ['BTM', 'in', 'world', 'hello']
 # print(" ".join(pop_var)) # BTM in world hello
-# print(" ". join((map(str, pop_var)))) # BTM in world hello
+# print(" ". join((mapFilterReduce(str, pop_var)))) # BTM in world hello
 
 ''' not using append or join '''
 inp_str = "hello world in BTM"

@@ -16,9 +16,9 @@ def odd_num(arr):
 if __name__  == "__main__":
     data = [1, 2, 3, 4, 5, 6]
     t1_even = threading.Thread(target=even_num, args=(data, ))
-    t2_even = threading.Thread(target=odd_num, args=(data, ))
+    t2_odd = threading.Thread(target=odd_num, args=(data, ))
     t1_even.start()
-    t2_even.start()
+    t2_odd.start()
     t1_even.join()
-    t2_even.join()
+    t2_odd.join()
 
