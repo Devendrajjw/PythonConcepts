@@ -14,7 +14,7 @@ d1 = {
     'I': 1
 }
 
-num = 12
+num = 14
 ot = []
 for k, v in d1.items():
     while num > 0:
