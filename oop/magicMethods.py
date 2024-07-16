@@ -1,9 +1,9 @@
-# class Demo:
+# class demo:
 #     name = 'Rudram'
 #
 #
-# d = Demo()
-# print(d)    # <__main__.Demo object at 0x00000219F9644210>
+# d = demo()
+# print(d)    # <__main__.demo object at 0x00000219F9644210>
 # print(d.name)
 #
 #

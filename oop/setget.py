@@ -1,7 +1,7 @@
 class Demo:
     def __init__(self):
         self.emp_name = ''
-        self.location = 'from Demo class'
+        self.location = 'from demo class'
 
     def set_name(self):
         name = input(" enter name ")
