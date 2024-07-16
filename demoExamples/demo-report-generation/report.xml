@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="3" skipped="0" tests="5" time="2.729" timestamp="2024-07-11T15:35:01.662740" hostname="LIN07002166"><testcase classname="test_sample" name="test_addition" time="1.275" /><testcase classname="test_sample" name="test_subtraction" time="0.004"><failure message="assert (2 - 1) == 3">def test_subtraction():
+&gt;       assert 2 - 1 == 3 # This will fail
+E       assert (2 - 1) == 3
+
+test_sample.py:9: AssertionError</failure></testcase><testcase classname="test_sample" name="test_multiplication" time="0.003"><failure message="assert (2 * 2) == 5">def test_multiplication():
+&gt;       assert 2 * 2 == 5  # This will fail
+E       assert (2 * 2) == 5
+
+test_sample.py:12: AssertionError</failure></testcase><testcase classname="test_sample" name="test_division" time="0.003" /><testcase classname="test_sample" name="test_square_root" time="0.002"><failure message="assert 4.0 == 5&#10; +  where 4.0 = &lt;built-in function sqrt&gt;(16)&#10; +    where &lt;built-in function sqrt&gt; = math.sqrt">def test_square_root():
+&gt;       assert math.sqrt(16) == 5  # This will fail
+E       assert 4.0 == 5
+E        +  where 4.0 = &lt;built-in function sqrt&gt;(16)
+E        +    where &lt;built-in function sqrt&gt; = math.sqrt
+
+test_sample.py:18: AssertionError</failure></testcase></testsuite></testsuites>
